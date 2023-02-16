@@ -1,5 +1,3 @@
-import java.util.*
-
 const val camel = """Switching on the camera in the camel habitat...
  ___.-''''-.
 /___  @    |
