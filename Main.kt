@@ -113,8 +113,7 @@ It looks like we will soon have more rabbits!"""
 fun main() {
     while(true){
         println("Please enter the number of the habitat you would like to view: > ")
-        val input = readLine()!!.toString().lowercase()
-        when(input){
+       when(readLine()!!.toString().lowercase()){
             "0"-> println(camel)
             "1"-> println(lion)
             "2"-> println(deer)
